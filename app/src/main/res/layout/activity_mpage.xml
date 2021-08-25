@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mpage2"
+    tools:context=".Mpage">
+
+    <Button
+        android:id="@+id/productlink"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="212dp"
+        android:text="BUY PESTICIDES                    >>"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#B3CD6E6E"
+        app:iconTint="#560B0505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/crpmanage"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="64dp"
+        android:text="CROP MANAGEMENT"
+        android:textColor="#F179AD"
+        android:textSize="24sp"
+        app:backgroundTint="#14873429"
+        app:iconTint="#560B0505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/prices"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="40dp"
+        android:text="Crop Prices                       >>"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#B3CD6E6E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productlink" />
+
+    <Button
+        android:id="@+id/crp_info"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:text="Crop information              >>"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#B3CD6E6E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prices"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <Button
+        android:id="@+id/videos"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:text="videos                                >>"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#B2CD6E6E"
+        app:layout_constraintBottom_toTopOf="@+id/crp_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prices"
+        app:layout_constraintVertical_bias="0.4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

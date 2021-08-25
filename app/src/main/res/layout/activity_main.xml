@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mpage"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textviewMain_a"
+        android:layout_width="292dp"
+        android:layout_height="77dp"
+        android:text="Welcome !!"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <Button
+        android:id="@+id/logout_Mpage"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:onClick="logout"
+        android:text="LOGOUT"
+        android:textColor="#D20C0C0C"
+        android:textSize="25sp"
+        app:backgroundTint="#5CFFFFFF"
+        app:iconTint="#702121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMain_a"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <Button
+        android:id="@+id/signin_Mpage"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:background="#FFFFFF"
+        android:onClick="signin"
+        android:text="SIGN IN"
+        android:textColor="#AD0B0101"
+        android:textSize="25sp"
+        app:backgroundTint="#52FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/logout_Mpage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewMain_a"
+        app:layout_constraintVertical_bias="0.642" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
